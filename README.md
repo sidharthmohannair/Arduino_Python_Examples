@@ -5,13 +5,13 @@ This repository contains examples of how to use Python to communicate with Ardui
 
 ## Examples
 
-1. **[Single LED Control](Single_LED_Control)**
+1. **[Single LED Control](/1_Single_LED_Control)**
    - Control a single LED using a Python script.
    - **Arduino Code:** `single_led_control.ino`
    - **Python Script:** `com_single_led.py`
    - **Description:** Demonstrates basic serial communication for turning an LED on and off.
 
-2. **[Multiple LEDs Control](Multiple_LEDs_Control)**
+2. **[Multiple LEDs Control](/2_Multiple_LEDs_Control)**
    - Control multiple LEDs using a Python script.
    - **Arduino Code:** `multiple_leds_control.ino`
    - **Python Script:** `com_multiple_leds.py`
