@@ -27,11 +27,10 @@ Here's a basic diagram for connecting an LED to pin 13 on the Arduino:
 - Connect the shorter leg (cathode) of the LED to a resistor.
 - Connect the other end of the resistor to the ground (GND) on the Arduino.
 
-![Circuit Diagram](screenshots/circuit_diagram.png)
 
 ### Hardware Setup Screenshot
 
-![Hardware Setup](screenshots/hardware_setup.png)
+![Hardware Setup](/1_Single_LED_Control/images/hardware.jpg)
 
 ## Software Setup
 
@@ -69,12 +68,16 @@ Here's a basic diagram for connecting an LED to pin 13 on the Arduino:
 
 ### Software Execution GIF
 
-![Execution GIF](gifs/execution.gif)
+![Execution GIF](/1_Single_LED_Control/images/result.gif)
 
 ## Troubleshooting
 
 - **Port Detection:** Ensure the correct COM port is used for the Arduino. The Python script should automatically detect the port.
-- **Permissions:** If you encounter permission issues, ensure your user has access to the COM port.
+- **Permissions:** If you encounter permission issues, ensure your user has access to the COM port by adding your user to the dialout group.
+
+   ```bash
+   sudo usermod -aG dialout $USER
+   ```
 - **LED Connections:** Verify the connections and polarity of the LED.
 
 ## Conclusion
@@ -87,5 +90,5 @@ Feel free to explore the other examples in this repository for more advanced pro
 
 ### License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](/LICENSE).
 
