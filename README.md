@@ -3,6 +3,8 @@
 
 This repository contains examples of how to use Python to communicate with Arduino via serial communication. Each example demonstrates a different aspect of Arduino control using a Python script. Whether you're a beginner or looking to expand your skills, these tutorials provide a hands-on approach to learning.
 
+![Cover Image](/images/An-illustrative-image-representing-Arduino-Python-Serial-Communication.png)
+
 ## Examples
 
 1. **[Single LED Control](/1_Single_LED_Control/Single_LED_Control_README.md)**
