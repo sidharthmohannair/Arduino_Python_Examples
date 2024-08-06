@@ -31,7 +31,7 @@ Each LED should have its anode connected to the respective pin and its cathode c
 
 ![Circuit Diagram](/2_Multiple_LEDs_Control/images/circuit_dia.png)
 
-### Hardware Setup Screenshot
+### Hardware Setup
 
 ![Hardware Setup](/2_Multiple_LEDs_Control/images/circuit.jpg)
 
@@ -75,9 +75,29 @@ Each LED should have its anode connected to the respective pin and its cathode c
    -  5: **LED 2** on
    -  Enter Q to quit the program.
 
-### Software Execution GIF
+### 4. Software Execution GIF
 
 ![Execution GIF](/2_Multiple_LEDs_Control/images/result.gif)
+
+### 5. Sequence diagram: Multiple LEDs Control Communication
+
+![Sequence Diagram](/2_Multiple_LEDs_Control/images/diagram.png)
+
+   The **Multiple LEDs Control** project involves controlling three LEDs connected to an Arduino board using a Python script. This sequence diagram illustrates the communication flow between the user, Python script, Arduino, and LEDs:
+
+   1. **User Starts Python Script:** The user initiates the Python script, which establishes a serial connection with the Arduino board. This connection is crucial for sending and receiving data between the script and the Arduino.
+
+   2. **User Inputs LED Command:** The user inputs a command specifying which LEDs to turn on or off. This command is processed by the Python script and is prepared for transmission to the Arduino.
+
+   3. **Python Script Sends Command to Arduino:** The Python script sends the command to the Arduino via the serial connection. This command dictates the desired state of each LED (on or off).
+
+   4. **Arduino Processes Command and Controls LEDs:** The Arduino receives the command and processes it. Based on the command, the Arduino turns the specified LEDs on or off, controlling the lighting pattern.
+
+   5. **Arduino Sends Feedback to Python Script:** After executing the command, the Arduino sends feedback to the Python script. This feedback contains the current status of the LEDs, confirming whether the command was executed successfully.
+
+   6. **Python Script Displays LED Status:** The Python script receives the feedback from the Arduino and displays the current status of the LEDs to the user. This step provides the user with visual confirmation of the LEDs' states.
+
+   7. **User Inputs New Commands:** The user can input new commands to change the state of the LEDs. The process repeats, allowing for real-time control and interaction with the LED setup.
 
 ## Troubleshooting
 
