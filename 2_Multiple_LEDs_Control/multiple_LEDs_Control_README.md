@@ -29,11 +29,11 @@ Here's a diagram showing how to connect three LEDs to pins 13, 12, and 11 on the
 
 Each LED should have its anode connected to the respective pin and its cathode connected to a resistor. The other end of each resistor should be connected to the ground (GND).
 
-![Circuit Diagram]()
+![Circuit Diagram](/2_Multiple_LEDs_Control/images/circuit_dia.png)
 
 ### Hardware Setup Screenshot
 
-![Hardware Setup]()
+![Hardware Setup](/2_Multiple_LEDs_Control/images/circuit.jpg)
 
 ## Software Setup
 
@@ -77,7 +77,7 @@ Each LED should have its anode connected to the respective pin and its cathode c
 
 ### Software Execution GIF
 
-![Execution GIF]()
+![Execution GIF](/2_Multiple_LEDs_Control/images/result.gif)
 
 ## Troubleshooting
 

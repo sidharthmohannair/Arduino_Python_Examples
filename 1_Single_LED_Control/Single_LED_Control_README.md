@@ -27,6 +27,7 @@ Here's a basic diagram for connecting an LED to pin 13 on the Arduino:
 - Connect the shorter leg (cathode) of the LED to a resistor.
 - Connect the other end of the resistor to the ground (GND) on the Arduino.
 
+![Circuit Diagram](/1_Single_LED_Control/images/circuit_dia.png)
 
 ### Hardware Setup Screenshot
 
